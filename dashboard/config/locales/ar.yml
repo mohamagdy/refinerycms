@@ -1,0 +1,27 @@
+ar:
+  refinery:
+    plugins:
+      refinery_dashboard:
+        title: "لوحة اﻷعدادات"
+        description: "لمحة عامة عن النشاط في ريفينرى"
+    admin:
+      dashboard:
+        index:
+          quick_tasks: "مهام سريعة"
+        actions:
+          add_a_new_page: "إضافة صفحة"
+          update_a_page: "تعديل صفحة"
+          upload_a_image: "رفع صورة"
+          upload_a_file: "رفع ملف"
+          change_language: "تغير لغة"
+          see_home_page: "راجع الصفحة الرئيسية"
+        recent_activity:
+          empty: "لم يكن هناك أي نشاط في الآونة الأخيرة."
+          latest_activity: "آخر نشاط"
+          latest_activity_message: "%{action} كان %{kind} %{what} "
+        recent_inquiries:
+          latest_inquiries: "أحدث الاستفسارات"
+    updated:
+      'with_article "the"': updated
+    created:
+      'with_article "the"': added
