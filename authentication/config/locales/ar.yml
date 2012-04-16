@@ -1,0 +1,72 @@
+ar:
+  refinery:
+    plugins:
+      refinery_users:
+        title: "أﻷعضاء"
+        description: "اﻷعضاء"
+    admin:
+      users:
+        delete: "مسح هذا العضو للأبد"
+        edit: "تعديل هذا العضو"
+        update:
+          cannot_remove_user_plugin_from_current_user: "لا يمكنك إزالة البرنامج المساعد  "
+        form:
+          blank_password_keeps_current: "ترك كلمة المرور فارغة تحافظ على كلمة المرور الحالية"
+          plugin_access: "الدخول إلى البرنامج المساعد"
+          role_access: "دور الدخول إلى"
+          enable_all: "تمكين جميع"
+        actions:
+          create_new_user: "إضافة عضو"
+        user:
+          email_user: "إرسال بريد إلكترونى إلى العضو"
+          preview: '(%{who}) أضاف %{created_at}'
+    sessions:
+      new:
+        hello_please_sign_in: "مرحبا ... من فضلك سجل الدخول"
+        sign_in: "تسجيل ابدخول"
+        forgot_password: "نسيت كلمة المرور"
+    user_mailer:
+      reset_notification:
+        subject: "رابط اﻷيتعادة كلمة السر"
+        reset_request_received_for: "طلب لأستعادة كلمة السر %{username}"
+        visit_this_url: "كم فضلك زر الرابط لأستعادة كلمة السر"
+        remain_same_if_no_action: "كلمة السر الخاصة بك لا تزال هي نفسها إذا لم يتخذ أي إجراء"
+    users:
+      new:
+        fill_form: "من فضلك املىء التفاصيل الخاصة بك حتى دون أن نتمكن من الحصول على انك بدأته"
+        sign_up: "تسجيل"
+      create:
+        welcome: 'مرحبا بكم في ريفينرى، %{who}'
+      forgot:
+        email_address: "بريد الكترونى"
+        enter_email_address: "من فضلك أدخل بريدك الألكترونى"
+        reset_password: "أستعادة كلمة السر"
+        blank_email: "لم تدخل كلمة السر"
+        email_not_associated_with_account_html: "هل أنت متأكد من البريد اﻷلكترونى الذى أدخلته؟"
+        email_reset_sent: "لقد نم إرسال بريد إلكترونى لأستعادة كلمة السر الخاصة بك"
+        password_encryption: "تحتاج إلى إعادة تعيين كلمة المرور الخاصة بك لأنه كانت هناك تغييرات في طرق التشفير كلمة السر التي يستخدمها ريفينرى بحيث يتم تخزين كلمات السر مع تشفير أقوى من ذي قبل."
+      reset:
+        code_invalid: "We're sorry, but this reset code has expired or is invalid. If you are having issues try copying and pasting the URL from your email into your browser or restarting the reset password process."
+        successful: "'%{email}'تم إستعادة كلمة السر ل"
+        pick_new_password_for: " %{email} من فضلك اختر كلمة سر جديد ل"
+        reset_password: "أستعادة كلمة السر"
+    roles:
+      superuser: "المستخدم المتميزين"
+      refinery: "ريفينرى"
+  devise:
+    failure:
+      unauthenticated: "تحتاج لتسجيل الدخول قبل المتابعة"
+      invalid: "آسف، اسم المستخدم الخاص بك أو كلمة السر غير صحيحة."
+    sessions:
+      signed_in: "تم تسجيل الدخول بنجاح"
+  activerecord:
+    models:
+      refinery/user: "مستخدم"
+    attributes:
+      refinery/user:
+        login: "تسجيل الدخول"
+        username: "اسم المستخدم"
+        password: "كلمة سر"
+        password_confirmation: "تأكيد كلمة السر"
+        email: "بريد إلكترونى"
+        remember_me: "تذكرنى"

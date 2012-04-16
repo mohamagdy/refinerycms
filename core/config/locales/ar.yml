@@ -1,0 +1,76 @@
+ar:
+  refinery:
+    js:
+      admin:
+        confirm_changes: "سيتم فقدان أي التغييرات التي قمت بها. هل أنت متأكد أنك تريد الاستمرار بدون الحفظ؟"
+    plugins:
+      refinery_core:
+        title: "ريفينرى"
+        description: "برنامج مساعد لريفينرى"
+      refinery_dialogs:
+        title: "الحوارات"
+        description: "برنامج مساعد للحوارات"
+    welcome:
+      there_are_no_users: "لايوجد مستخدمسن مسجلين ... لابد من التسجيل أولا"
+    crudify:
+      created: "بنجاح %{what} تم إضافة"
+      updated: "بنجاح %{what} تم تعديل"
+      destroyed: "بنجاح %{what} تم حذف"
+    site_bar:
+      log_out: "تسجيل الخروج"
+      switch_to_your_website: "التحول إلى موقع الويب الخاص بك"
+      switch_to_your_website_editor: "التبديل إلى محرر موقع الويب الخاص بك"
+    admin:
+      menu:
+        reorder_menu: "إعادة ترتب القائمة"
+        reorder_menu_done: "انتهيت من إعادة ترتيب القائمة"
+      dialogs:
+        show:
+          save: "حفظ"
+          cancel: "إلغاء"
+      continue_editing:
+        save_and_continue_editing: "حفظ و استمرار"
+      form_actions:
+        save: "حفظ"
+        cancel: "إلغاء"
+        cancel_lose_changes: "إذا قمت بإلغاء ستفقد أية تغييرات أجريتها هنا"
+        delete: "إزالة"
+        close: "غلق"
+      image_picker:
+        none_selected: "لا يوجد حاليا أي صورة محددة، الرجاء الضغط هنا لإضافة واحد."
+        remove_current: "إزالة الصورة الحالية"
+        change: "انقر هنا لاختيار صورة"
+        show: "إظهار"
+      resource_picker:
+        download_current: "حفظ الملف الحالى"
+        opens_in_new_window: "فتح في نافذة جديدة"
+        remove_current: "إزالة الملف الحالي"
+        no_resource_selected: "لا يوجد حاليا أي ملف المحدد، انقر هنا لإضافة واحد"
+        name: "إضافة ملف"
+        current: "الملف الحالى"
+      search:
+        button_text: "بحث"
+        results_for: "'%{query}' نتائج البحث عن"
+        no_results: 'لا يوجد نتائج'
+      delete:
+        message: "؟'%{title}' هل أنت متأكد من إزالة"
+      error_messages:
+        problems_in_following_fields: "هناك أخطاء فى الحقول اﻷتيه"
+      help: "مساعدة"
+    message:
+      close: "غلق"
+      close_this_message: "غلق الرسالة"
+    draft_page_message:
+      not_live: "هذه الصفحة ليست منشورة"
+    footer:
+      copyright: "%{year} %{site_name} حقوق الطبع والنشر"
+    no_script:
+      enable_javascript_html: "للحصول على الوظائف الكاملة لهذه الصفحة كان من الضروري لتمكين جافا سكريبت."
+      here_are: "هنا"
+      instructions_enable_javascript_html: "تعليمات لتفعيل للجافا سكريبت فى متصفحك"
+  time:
+    formats:
+      short: "%A, %d %B %Y"
+  will_paginate:
+    previous_label: "&laquo;"
+    next_label: "&raquo;"
